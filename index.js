@@ -3,9 +3,7 @@ const Client = new Discord.Client();
 let prefix = process.env.PREFIX;
 
 client.on('ready', () => {
- console.log("========================");
  console.log("Made by Kazehaya#3276");
- console.log("========================")
 
 });
 
@@ -63,9 +61,9 @@ client.on('message', async (message) => {
   if(!db.tiene(`${args[0]}`)) return message.channel.send("Wrong key")
   
   const embed = new Discord.RichEmbed() 
-    .setTitle("Redeem » Successfully!")
+    .setTitle("Redeem Â» Successfully!")
     .setColor(0x00AE86)
-    .setDescription(`• ${message.author}, You just got the **Vip** role and you can use the generator now.`)
+    .setDescription(`â€¢ ${message.author}, You just got the **Vip** role and you can use the generator now.`)
     .setThumbnail("https://images-ext-1.discordapp.net/external/t_vikGsLiBbjaGG4NwT-q2N6B4bcenOFUstYmDXLhe4/%3Fwidth%3D424%26height%3D318/https/images-ext-1.discordapp.net/external/UEu3Cx_CnK2HB4MXx6l1hypTiwG1YWAVO1dIDyDe4h8/https/i.pinimg.com/originals/70/a5/52/70a552e8e955049c8587b2d7606cd6a6.gif?width=212&height=159")
     .setFooter(`redeem used by ${message.author.tag}`);
     member.addRole("") //Put the id of the role you want the user to get into the ""
