@@ -8,7 +8,7 @@
 <ul>
 <li>NodeJS</li>
 <li>MegaDB</li>
-<li>discord.js</li>
+<li>Discord.js</li>
 <li>Express</li>
 </ul>
 </blockquote>
