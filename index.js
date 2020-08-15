@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const Client = new Discord.Client();
+const client = new Discord.Client();
 let prefix = process.env.PREFIX;
 
 client.on('ready', () => {
@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 });
 
-client.on('message', async (message) => {
+client.on('message', async message => {
 
   if (!message.content.startsWith(prefix)) return; 
   if (message.author.bot) return;
