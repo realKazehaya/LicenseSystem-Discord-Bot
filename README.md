@@ -23,6 +23,5 @@
 </blockquote>
 <h1>Social</h1>
 <blockquote> 
-<li><center><a href="https://discord.gg/6aNBHHt">Discord</a></center></li>
 <li><center><a href="https://twitter.com/realKazehaya">Twitter</a></center></li>
  </blockquote>
